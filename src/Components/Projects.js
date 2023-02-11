@@ -2,20 +2,34 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <section id="projects">
-            <h2>My Projects</h2>
-            <ul>
-                <li>
-                    <h3>Project 1</h3>
-                    <p>A brief description of project 1</p>
-                </li>
-                <li>
-                    <h3>Project 2</h3>
-                    <p>A brief description of project 2</p>
-                </li>
-            </ul>
-        </section>
+        <section>
+            <h2>Projects</h2>
+            <div className='projects'>
+                <div className='project'>
+<h3>Project Siosiana</h3>
+                    <pre>
+                        <code>
+                            {'//code snippet coming here for Siosiana'}
+                        </code>
+
+                    </pre>
+                </div>
+                <div className='project'>
+                    <h3>Project Chatbot</h3>
+                    <pre>
+                        <code> {'//code snippet here Chatbot'}</code>
+                    </pre>
+                </div>
+            </div>
+            <div className='project'>
+                <h3>Project Incoming</h3>
+                <pre>
+                    <code> {'//code snippet here Incoming'}</code>
+                </pre>
+            </div>
+            </section>
     );
 };
 
+    
 export default Projects;
