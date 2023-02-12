@@ -35,7 +35,13 @@ const Projects = () => {
             code: `//Link coming soon! in the meantime click on 'See Project' below that links to the beautiful pictures I look forward to working with!` ,
             url: 'https://www.instagram.com/pikihuiaportraits/'
         },
-      
+        {
+            id: 5,
+            title: `PORTFOLIO`,
+            blurb: `Yep, this literal page. Built on the wonderful React, with some cool components. A little hard making something that's all about you talking about yourself. Heaps of fun working on the colour scheme. I don't know why App.css has the contact us styling and I'm still trying to figure out the links *sigh*. The form at the moment is a work in progress while waiting on authentication from sendGrid.`,
+            code: ``,
+            url: 'https://www.instagram.com/pikihuiaportraits/'
+        },
     ])
 
     return (
