@@ -1,4 +1,159 @@
 .projects {
+    padding: 20px;
+    background-color: #F5F5F5;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.project {
+    width: calc(33.33% - 40px);
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+.project pre {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+.project code {
+    font-size: 14px;
+    color: #333;
+}
+
+.project a {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background-color: #444;
+}
+
+@media (max-width: 992px) {
+    .project {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: calc(100% - 40px);
+    }
+}
+
+
+
+
+/*layout of grid to be responsive however I was not happy with it being layered on top of each other.
+
+/* .projects {
+    padding: 20px;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+.projects h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project pre {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+.project code {
+    font-size: 14px;
+    color: #333;
+}
+
+.project a {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background-color: #444;
+}
+
+@media (max-width: 600px) {
+    .project {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .project pre {
+        font-size: 12px;
+    }
+} */
+
+
+
+/*original layout below using flex grid 
+
+/* .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -33,4 +188,4 @@ pre {
 
 code {
     font-size: 16px;
-}
+} */

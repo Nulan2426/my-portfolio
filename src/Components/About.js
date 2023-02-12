@@ -21,7 +21,7 @@ const About = () => {
 
     return (
         <div className='about'>
-            <h2>Talofa, Malo e lelei, Kiaora! <br></br>I'm Leisa</h2>
+            <h2>Talofa, Malo e lelei, Kia ora! <br></br>I'm Leisa</h2>
             <p>
                 I'm a career changer, who has found herself in the wonderful world of technology building beautiful and functional websites as a Full stack developer. <br></br>
                 I took a risk in my adult life to re-train and become a developer, continuing my learning into an industry where I don't see anyone else like me.<br></br>
