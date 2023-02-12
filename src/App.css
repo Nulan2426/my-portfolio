@@ -37,6 +37,10 @@
   }
 } */
 
+.App {
+  font-family: 'Lato', sans-serif;
+}
+
 body {
   font-family: sans-serif;
   color: #333;
