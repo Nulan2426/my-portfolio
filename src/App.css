@@ -72,7 +72,7 @@ header nav a {
   text-decoration: none;
   margin-right: 20px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 header nav a:hover {
@@ -81,6 +81,16 @@ header nav a:hover {
 
 section {
   padding: 20px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+
 }
 
 form {

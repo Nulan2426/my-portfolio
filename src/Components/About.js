@@ -20,8 +20,9 @@ const About = () => {
     };
 
     return (
-        <div className='about'>
-            <h2>Talofa, Malo e lelei, Kia ora! <br></br>I'm Leisa</h2>
+        <div className='about' id='about'>
+            <section>
+            <h2>Kia ora, Talofa, Malo e lelei! <br></br>I'm Leisa</h2>
             <p>
                 I'm a career changer, who has found herself in the wonderful world of technology building beautiful and functional websites as a Full stack developer. <br></br>
                 I took a risk in my adult life to re-train and become a developer, continuing my learning into an industry where I don't see anyone else like me.<br></br>
@@ -61,7 +62,7 @@ const About = () => {
                 Siosiana is in her 70s, and has a plethora of knowledge about the Tongan culture. <br></br>
                 Having a place to hold, store and share her knowledge with the world, has seen a wonderful marriage of my learning journeys.<br></br>
                 You can find me when I'm not coding, spending time with my little family, travelling the pacific learning more about my heritage and watching sports.</p>
-            
+            </section>
 </div>
 
         // <section id="about">

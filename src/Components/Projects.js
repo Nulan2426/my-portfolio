@@ -14,7 +14,7 @@ const Projects = () => {
         {
             id: 2,
             title: 'LANDING PAGE',
-            blurb: 'Landing page about me I made in my first month of coding, something I am proud to showcase as I doubted myself before this so much about career changing. I questioned a lot about what I was doing, the colour scheme I used and as you can probably see by my file upload I did not have a single clue about GitHub (I kind of still do not - what is a readme?) Made with HTML and CSS.',
+            blurb: 'Landing page about me I made in my first month of coding, something I am proud to showcase as I doubted myself before this so much about career changing. I questioned a lot about what I was doing, the colour scheme I used and as you can probably see by my file upload I did not have a single clue about GitHub.  Made with HTML and CSS.',
             code: 'https://github.com/Nulan2426/mission2/blob/main/Mission2.html',
             url: 'https://github.com/Nulan2426/mission2/blob/main/Mission2.html'
         },
@@ -31,22 +31,23 @@ const Projects = () => {
         {
             id: 4,
             title: 'PIKIHUIA (up coming Project)',
-            blurb: 'A recent commission to build a website for a photography business. I am looking forward to building this website as a lot of the work I have been doing has been frontend development. I am keen to build a beautiful interface of her work, as well as utilising my full stack experience. I envision using React to build this project with reusable components utilising nodejs, expressjs as well as MySQL for backend data, middleware and storage.',
+            blurb: 'A recent commission to build a website for a photography business. I am looking forward to building this website as a lot of the work I have been doing has been frontend development. I am keen to build a beautiful interface of her work, as well as utilising my full stack experience. I envision using React to build this project with reusable components utilising nodejs, expressjs as well as MySQL for backend if this project.',
             code: `//Link coming soon! in the meantime click on 'See Project' below that links to the beautiful pictures I look forward to working with!` ,
             url: 'https://www.instagram.com/pikihuiaportraits/'
         },
         {
             id: 5,
             title: `PORTFOLIO`,
-            blurb: `Yep, this literal page. Built on the wonderful React, with some cool components. A little hard making something that's all about you talking about yourself. Heaps of fun working on the colour scheme. I don't know why App.css has the contact us styling and I'm still trying to figure out the links *sigh*. The form at the moment is a work in progress while waiting on authentication from sendGrid.`,
-            code: ``,
-            url: 'https://www.instagram.com/pikihuiaportraits/'
+            blurb: `Yep, this literal page. Built on the wonderful React, with some cool components. I found making this difficult as it goes against what I'm used to of having to talk/showcase myself. I did have fun working on the colour scheme. I don't know why App.css has the contact us styling and I'm still trying to figure out the links *sigh*. The form at the moment is a work in progress while waiting on authentication from sendGrid.`,
+            code: `https://github.com/Nulan2426/my-portfolio`,
+            url: 'https://github.com/Nulan2426/my-portfolio.git'
         },
     ])
 
     return (
      
-            <div className='projects'>
+        <div className='projects' id="projects">
+            
                 <h2>Projects</h2>
                 {projects.map(project => (
                     <div key={project.id} className="project">
@@ -58,6 +59,7 @@ const Projects = () => {
                         <a href={project.url} target="_blank" rel="noopener noreferrer">See Project</a>
                         </div>
                 ))}
+            
                 </div>
     );
 };
