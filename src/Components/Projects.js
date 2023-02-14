@@ -31,14 +31,14 @@ const Projects = () => {
         {
             id: 4,
             title: 'PIKIHUIA (up coming Project)',
-            blurb: 'A recent commission to build a website for a photography business. I am looking forward to building this website as a lot of the work I have been doing has been frontend development. I am keen to build a beautiful interface of her work, as well as utilising my full stack experience. I envision using React to build this project with reusable components utilising nodejs, expressjs as well as MySQL for backend if this project.',
+            blurb: 'A recent commission to build a website for a photography business. I am looking forward to building this website as a lot of the work I have been doing has been frontend development. I am keen to build a beautiful interface of her work, as well as utilising my full stack experience. I envision using React to build this project with reusable components utilising nodejs, expressjs and MySQL for the backend if this project.',
             code: `//Link coming soon! in the meantime click on 'See Project' below that links to the beautiful pictures I look forward to working with!` ,
             url: 'https://www.instagram.com/pikihuiaportraits/'
         },
         {
             id: 5,
             title: `PORTFOLIO`,
-            blurb: `Yep, this literal page. Built on the wonderful React, with some cool components. I found making this difficult as it goes against what I'm used to of having to talk/showcase myself. I did have fun working on the colour scheme. I don't know why App.css has the contact us styling and I'm still trying to figure out the links *sigh*. The form at the moment is a work in progress while waiting on authentication from sendGrid.`,
+            blurb: `This literal page. Built on the wonderful React, with some cool components and fully responsive. I quickly realised in my search for work that a portfolio page would do the talking more than I can. I designed the components hopefully to be easy to read, and easy to maintain in the future as I add more projects and gain more experience that I want to showcase. The form at the bottom of the page works, so please feel free to leave me a message. Feedback is always welcome!`,
             code: `https://github.com/Nulan2426/my-portfolio`,
             url: 'https://github.com/Nulan2426/my-portfolio.git'
         },

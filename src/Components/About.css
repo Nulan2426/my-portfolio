@@ -19,7 +19,7 @@
     height: 400px;
     object-fit:contain;
     margin-bottom: 30px;
-    filter: grayscale(4);
+    filter:grayscale(0.9);
 
 }
 
