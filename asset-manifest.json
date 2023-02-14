@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.f975edbd.css",
+    "main.js": "/my-portfolio/static/js/main.14ae38b0.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/leisa5.jpg": "/my-portfolio/static/media/leisa5.d354f8d6e817f2741ce2.jpg",
+    "static/media/leisa7.jpg": "/my-portfolio/static/media/leisa7.f59ed5d146b52f450ade.jpg",
+    "static/media/leisa2.jpg": "/my-portfolio/static/media/leisa2.d4505f95c12718717d52.jpg",
+    "static/media/leisa3.jpg": "/my-portfolio/static/media/leisa3.ef18e10193217681e8a9.jpg",
+    "static/media/leisa4.jpg": "/my-portfolio/static/media/leisa4.b9d66181730373d71fab.jpg",
+    "static/media/leisa1.jpg": "/my-portfolio/static/media/leisa1.18d4f20d182788a8e59e.jpg",
+    "static/media/leisa8.jpg": "/my-portfolio/static/media/leisa8.3d77e291377e0c7038b7.jpg",
+    "static/media/leisa6.jpg": "/my-portfolio/static/media/leisa6.a3edaeab1c24b62c43d4.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.f975edbd.css.map": "/my-portfolio/static/css/main.f975edbd.css.map",
+    "main.14ae38b0.js.map": "/my-portfolio/static/js/main.14ae38b0.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f975edbd.css",
+    "static/js/main.14ae38b0.js"
+  ]
+}
