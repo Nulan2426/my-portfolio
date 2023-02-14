@@ -24,8 +24,9 @@ const About = () => {
             <section>
             <h2>Kia ora, Talofa, Malo e lelei! <br></br>I'm Leisa Kalaniuvalu.</h2>
             <p>
-                I'm a career changer, who has found herself in the wonderful world of technology building beautiful and functional websites as a Full stack developer. <br></br>
-                I took a risk in my adult life to re-train and become a developer, continuing my learning into an industry where I don't see anyone else like me.<br></br>
+                    As a career changer with experience across different companies, ethics, missions, and skill sets, I chose to pursue a career in technology. <br></br>
+                    Despite the lack of representation of women and Pacific peoples in the tech industry, I took a risk to retrain as a developer and have since continued learning in this exciting and innovative field.
+                    <br></br> I believe that techonology is the future, I strongly believe that diversity starts with representation, and I am committed to making a positive and sustainable change in our communities. <br></br>
             
 
             </p>
@@ -61,7 +62,7 @@ const About = () => {
                 My passion project at the moment is building a website for the wonderful Siosiana 'Uheina Kalaniuvalu.
                 Siosiana is in her 70s, and has a plethora of knowledge about the Tongan culture. <br></br>
                 Having a place to hold, store and share her knowledge with the world, has seen a wonderful marriage of my learning journeys.<br></br>
-                You can find me when I'm not coding, spending time with my little family, travelling the pacific learning more about my heritage and watching sports.</p>
+                You can find me when I'm not coding, spending time with my little family, travelling the pacific and watching sports.</p>
             </section>
 </div>
 

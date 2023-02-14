@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import emailjs from 'emailjs-com';
+import { Modal, Button, ModalBody, ModalFooter } from "react-bootstrap";
+import "./Contact.css"
 
 
 const Contact = () => {
@@ -10,6 +12,8 @@ const Contact = () => {
         user_email: "",
         message: ""
     });
+
+    const [show, setShow] = useState(false);
 
     const handleChange = e => {
         setFormData({
@@ -26,13 +30,14 @@ const Contact = () => {
             'd2ofAUCX57jxIkz7e')
             .then((response) => {
                 console.log('Email successfully sent!');
-                alert("Leisa here, your message has been sent. I appreciate you reaching out!");
                 setFormData({
                     user_name: "",
                     user_email: "",
                     message: ""
                 });
-            }, (err) => {
+                setShow(true);
+            },
+                (err) => {
                 console.error('Failed to send email: ', err);
             });
     };
@@ -65,7 +70,21 @@ const Contact = () => {
                     onChange={handleChange}
                 />
                 <button type="submit">Submit</button>
+                <Modal show={show} onHide={() => setShow(false)}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Message sent</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>Thank you for reaching out!</Modal.Body>
+                    <Modal.Footer>
+                        <Button variant="secondary" onClick={() => setShow(false)}>
+                            CLOSE
+                        </Button>
+                    </Modal.Footer>
+                </Modal>
             </form>
+
+
+
         </section>
     )
 }
