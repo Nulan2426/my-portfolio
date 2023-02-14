@@ -14,8 +14,8 @@ const Header = () => {
   )
 
   return (
-    <header>
-      <h1>Leisa Kalaniuvalu</h1>
+    <header className='header'>
+      <h1>LK Portfolio</h1>
       <div className="header-social-links">
         <SocialLink icon={GitHub} url="https://github.com/Nulan2426" />
         <SocialLink icon={LinkedIn} url="https://www.linkedin.com/in/leisa-kalaniuvalu/" />

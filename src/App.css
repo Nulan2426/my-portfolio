@@ -57,7 +57,9 @@ header {
 }
 
 header h1 {
-  margin: 0;
+  margin-left: 50px;
+  /* font-size: 30px; */
+  font-weight: 500;
 }
 
 header nav ul {
