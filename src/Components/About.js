@@ -25,7 +25,7 @@ const About = () => {
             <h2>Kia ora, Talofa, Malo e lelei! <br></br>I'm Leisa Kalaniuvalu.</h2>
             <p>
                     As a career changer with experience across different companies, ethics, missions, and skill sets, I chose to pursue a career in technology. <br></br>
-                    Despite the lack of representation of women and Pacific peoples in the tech industry, I took a risk to retrain as a developer and have since continued learning in this exciting and innovative field.
+                    I took a risk to retrain as a developer and have since continued learning in this exciting and innovative field, creating functional, responsive (and beautiful) websites.
                     <br></br> I believe that techonology is the future, I strongly believe that diversity starts with representation, and I am committed to making a positive and sustainable change in our communities. <br></br>
             
 
