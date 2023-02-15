@@ -60,7 +60,7 @@ const About = () => {
 
             <p>I have an Arts degree from the University of Auckland double majoring in Politics and Pacific Studies. <br></br>
                 My passion project at the moment is building a website for the wonderful Siosiana 'Uheina Kalaniuvalu.
-                Siosiana is in her 70s, and has a plethora of knowledge about the Tongan culture. <br></br>
+                Siosiana is in her 70s, and has a plethora of knowledge about Tongan culture and arts. <br></br>
                 Having a place to hold, store and share her knowledge with the world, has seen a wonderful marriage of my learning journeys.<br></br>
                 You can find me when I'm not coding, spending time with my little family, travelling the pacific and watching sports.</p>
             </section>
