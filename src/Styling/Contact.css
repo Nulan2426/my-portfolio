@@ -1,3 +1,10 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .modal {
     display: flex;
     justify-content:center;
@@ -48,4 +55,16 @@
 .btn-secondary:hover {
     background-color: #5a6268;
     border-color: #545b62;
+}
+
+@media (max-width: 768px) {
+    .contact h2 {
+        font-size: medium;
+    }
+
+    .form button {
+        font-size: small;
+    }
+
+
 }

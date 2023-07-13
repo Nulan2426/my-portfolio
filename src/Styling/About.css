@@ -16,11 +16,18 @@
 }
 
 .slick-slide img {
-    width: 100%;
+    width: 80%;
     height: 400px;
     object-fit:contain;
     margin-bottom: 30px;
     filter:grayscale(0.9);
+  
+
+}
+
+
+.slick-next:before, .slick-prev:before {
+    color: black;
 
 }
 
@@ -33,4 +40,29 @@
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 30px;
+}
+
+@media (max-width :767px) {
+.about {
+    font-size: small;
+}
+
+.about p {
+    font-size: small;
+}
+
+.about h2 {
+    font-size: medium;
+}
+
+.slick-slide img {
+    max-height: 200px!important;
+    gap: 10px;
+
+}
+
+.slick-dots li button {
+    display: none;
+}
+
 }

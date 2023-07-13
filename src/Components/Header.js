@@ -2,7 +2,7 @@ import React from 'react';
 import GitHub from '../Assets/github3.png';
 import LinkedIn from '../Assets/linkedin.png';
 import InstagramIcon from '../Assets/instagram.png';
-import "./Header.css"
+import "../Styling/Header.css"
 
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className='header'>
-      <h1>LK Portfolio</h1>
+      <h1>LK Portfolio 2023</h1>
       <div className="header-social-links">
         <SocialLink icon={GitHub} url="https://github.com/Nulan2426" />
         <SocialLink icon={LinkedIn} url="https://www.linkedin.com/in/leisa-kalaniuvalu/" />

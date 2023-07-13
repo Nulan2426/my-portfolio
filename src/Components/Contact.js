@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import emailjs from 'emailjs-com';
 import { Modal, Button, ModalBody, ModalFooter } from "react-bootstrap";
-import "./Contact.css"
+import "../Styling/Contact.css"
 
 
 const Contact = () => {
@@ -44,9 +44,9 @@ const Contact = () => {
 
     
     return (
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form onSubmit={handleSubmit}>
+        <section class="contact" id="contact">
+            <h2>CONTACT</h2>
+            <form class="form" onSubmit={handleSubmit}>
                 <input
                     type="text"
                     name="user_name"

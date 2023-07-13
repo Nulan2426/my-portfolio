@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'
+import '../Styling/About.css'
 import Slider from 'react-slick'
 import leisa1 from '../Assets/leisa1.jpg';
 import leisa2 from '../Assets/leisa2.jpg';
@@ -22,14 +22,23 @@ const About = () => {
     return (
         <div className='about' id='about'>
             <section>
-            <h2>Kia ora, Talofa, Malo e lelei! <br></br>I'm Leisa Kalaniuvalu.</h2>
+            <h2>Kia ora, Talofa, Malo e lelei!
+            <br />I'm Leisa Kalaniuvalu
+            </h2>
             <p>
-                    As a career changer with experience across different companies, ethics, missions, and skill sets, I chose to pursue a career in technology. <br></br>
-                    I took a risk to retrain as a developer and have since continued learning in this exciting and innovative field, creating functional, responsive (and beautiful) websites.
-                    <br></br> I believe that techonology is the future, I strongly believe that diversity starts with representation, and I am committed to making a positive and sustainable change in our communities. <br></br>
-            
-
+            I'm a career changer with experience across different companies, ethics, missions, and skill sets. I made the concious decision to start learning how to code and move into tech in 2022.
+            <br/>
+            I took a risk and retrained as a full stack developer and have since continued learning in this exciting and innovative field, creating functional, responsive and beautiful websites.
+            <br/>
+            I've always believed that technology is the future, and taking that leap of faith to retrain has opened my eyes to many possibilities.
+            <br />
+            I strongly believe that diversity starts with representation, and I am committed to making a positive and sustainable change in our communities. 
+            <br />
+                    New Zealand currently has only 4% Maori and 2.8% Pasifika working in technology and I hope to change that for the betterment of the community and our youth. <br />
+                    source: {""}  
+                    <a href='https://nztech.org.nz/wp-content/uploads/sites/8/2021/01/Digital-Skills-Aotearoa-Report-2021_online.pdf' target='_blank' rel="noopener noreferrer">here</a>        
             </p>
+            
             <Slider {...settings}>
                 <div>
                     <img src={leisa5} alt="Leisa 5" /> 
@@ -58,18 +67,17 @@ const About = () => {
                 
             </Slider>
 
-            <p>I have an Arts degree from the University of Auckland double majoring in Politics and Pacific Studies. <br></br>
+                <p>I have an Arts degree from the University of Auckland double majoring in Politics and Pacific Studies.
+                    <br/>
                 My passion project at the moment is building a website for the wonderful Siosiana 'Uheina Kalaniuvalu.
-                Siosiana is in her 70s, and has a plethora of knowledge about Tongan culture and arts. <br></br>
-                Having a place to hold, store and share her knowledge with the world, has seen a wonderful marriage of my learning journeys.<br></br>
-                You can find me when I'm not coding, spending time with my little family, travelling the pacific and watching sports.</p>
+                    Siosiana is in her 70s, and has a plethora of knowledge about Tongan culture and arts.
+                    <br/>
+                    Having a place to hold, store and share her knowledge with the world, has seen a wonderful marriage of my learning journeys.
+                    <br/>
+                You can find me when I'm not coding, spending time with my little family, advocating for our pasifika people to consider a career in tech, travelling the pacific and watching sports.</p>
             </section>
 </div>
 
-        // <section id="about">
-        //     <h2>About Me</h2>
-        //     <p>Talofa, Malo e lelei, Kia Ora! I'm Leisa. I'm a web developer with a passion for building beautiful and functional websites. My experience includes working with HTML, CSS, JavaScript, and a variety of front-end frameworks.</p>
-        // </section>
     );
 };
 

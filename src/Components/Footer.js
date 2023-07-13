@@ -1,10 +1,10 @@
 import React from "react";
-import './Footer.css'
+import '../Styling/Footer.css'
 
 const Footer = () => (
     <footer className="footer">
 
-        <p>Copyright © Leisa Kalaniuvalu 2022</p>
+        <p>Copyright © LSK 2023</p>
 
     </footer>
 )
