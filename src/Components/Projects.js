@@ -7,7 +7,7 @@ const Projects = () => {
         {
             id: 1,
             title: 'SIOSIANA',
-            blurb: 'A passion project of beautiful knowledge. HTML, CSS and vanilla JS. Used in this project is SwiperJS a modern touch slider. In future iterations of this website I envision that it will move to React as the plethora of knowledge held by Siosiana means that the Website will require storage and a more stable way to store and call the information.',
+            blurb: 'A passion project of beautiful knowledge. HTML, CSS and vanilla JS. In future iterations of this website I envision that it will move to React as the plethora of knowledge held by Siosiana means that the Website will require storage and a more stable way to store and call the information.',
             code: 'https://github.com/Nulan2426/siosiana',
             url: 'https://github.com/Nulan2426/siosiana'
         },
@@ -48,7 +48,7 @@ const Projects = () => {
         {
             id: 6,
             title: `PORTFOLIO`,
-            blurb: `This literal page. Built on the wonderful React, with some cool components and fully responsive. I quickly realised in my search for work that a portfolio page would do the talking more than I can. I designed the components hopefully to be easy to read, and easy to maintain in the future as I add more projects and gain more experience that I want to showcase. The form at the bottom of the page works, so please feel free to leave me a message. Feedback is always welcome!`,
+            blurb: `Built on the wonderful React, with some cool components and fully responsive. I quickly realised in my search for work that a portfolio page would do the talking more than I can. I designed the components hopefully to be easy to read, and easy to maintain in the future as I add more projects and gain more experience that I want to showcase. The form at the bottom of the page works, so please feel free to leave me a message. Feedback is always welcome!`,
             code: `https://github.com/Nulan2426/my-portfolio`,
             url: 'https://github.com/Nulan2426/my-portfolio.git'
         },
