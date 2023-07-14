@@ -7,7 +7,7 @@ const Projects = () => {
         {
             id: 1,
             title: 'ORIANA SIVA ACADEMY',
-            blurb: `A project for an amazing team in Australia whose dance academy did not have a website. This page was built on React.js. the timeline was was short as they had a launch for registrations 8 days away. Incorporated into the site are two google forms, which in a future iteration will be coded into the actual page itself. There is no backend and is a purely front end development. My learnings from this projects, 1. The amount of work I could accomplish in 8 days was awesome, 2. Incorporating and ensuring my project goes into github earlier to save tears on deployment and lastly, never forget a scroll up button!`,
+            blurb: `A project for an amazing team in Australia whose dance academy did not have a website. This page was built on React.js. the timeline was short as they had a launch for registrations 8 days away. Incorporated into the site are two google forms, which in a future iteration will be coded into the actual page itself. There is no backend and is a purely front end development. My learnings from this projects, 1. The amount of work I could accomplish is immense, further cementing my position to push myself in this field. 2. Incorporating and ensuring my project goes into github earlier to save tears on deployment and lastly, never forget a scroll up button!`,
             code: `https://www.orianasivaacademy.com.au`,
             url: 'https://www.orianasivaacademy.com.au'
 
@@ -24,7 +24,7 @@ const Projects = () => {
         {
             id: 3,
             title: 'SPASIFIK RECRUITMENT (up coming Project)',
-            blurb: `A recent commission to build a website for a recruitment business. It was here that I realised the work in the space that I'm in really is lacking in Pasifika talent. Back story, the owner of the business was told that what he is looking for is a 'full stack developer', he had no idea what that was, so went to LinkedIn and typed in full stack developer, and the first pasifika name he came across was me. He reached out, and here we are!.`,
+            blurb: `A recent commission to build a website for a recruitment business. It was here that I realised the work in the space that I'm in really lacks Pasifika talent. Back story, the owner of the business was told that what he is looking for is a 'full stack developer', he had no idea what that was, so went to LinkedIn and typed in full stack developer, and the first pasifika name he came across was me. He reached out, and here we are!.`,
             code: `//Link coming soon! Watch this space!`,
             url: ''
           

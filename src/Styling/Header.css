@@ -1,21 +1,68 @@
 .header {
+
+    
+    display: flex;
     position: relative;
-    top: 0;
+    /* top: 0;
     left: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 9999; */
     opacity: 90%;
     padding: 0;
     font-family: 'Cormorant', serif;
 }
 
 .header h1 {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .header nav {
-    margin-right: 10px;
+    margin-right: 20px;
 }
+
+.icons {
+    display: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* color: black; */
+    font-size: 20px;
+}
+.mobile-nav {
+    display: none !important;
+    flex-direction: column;
+    justify-content: center;
+    top: 40px;
+    text-align: center;
+}
+
+.mobile-nav ul {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+     
+}
+
+.mobile-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    transform: translate(-50%, 0);
+    list-style: none;
+   margin-left: -20%;
+    margin-right: 20%;
+    margin-bottom: px;
+    margin-top: 40px;
+}
+
+.mobile-links a {
+    padding: 5px;
+}
+
+
 
 
 @media (max-width: 768px) {
@@ -23,17 +70,17 @@
         display: flex;
         flex-direction: row ;
         justify-content: space-between;
-        align-items: row;
+        align-items: center;
+        position: relative;
+        padding:60px;
+        /* padding-top: 30px; */
 
     }
 
     .header h1 {
-     display: flex;
+     display: flex !important;
      flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        margin-left: 0%;
-        font-size: medium;
+     margin-left: 0;
     }
 
     .header nav {
@@ -43,10 +90,25 @@
     }
 
     .header nav a {
-        text-align:center;
-        border-top:none!important;
-        padding: none;
+        display: flex;
         font-size: small;
     }
+
+    .desktop-nav {
+        display: none !important;
+    }
+
+.icons {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mobile-nav {
+    display: flex !important;
+    flex-direction: column;
+   
+    
+}
 
 }

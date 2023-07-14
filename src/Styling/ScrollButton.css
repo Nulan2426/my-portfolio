@@ -1,0 +1,24 @@
+.scroll-button {
+    font-weight: bold;
+    /* background-color: black; */
+    border: none;
+    color: #333;
+    /* margin-left: 50%; */
+    margin-right: 20%;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+
+.circle {
+        width: 15px;
+        height: 15px;
+        color: #333;
+    }
+
+}

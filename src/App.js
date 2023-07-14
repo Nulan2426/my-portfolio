@@ -5,6 +5,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import './App.css';
+import ScrollButton from './Components/ScrollButton';
 
 
 const App = () => {
@@ -12,8 +13,11 @@ const App = () => {
     <div className="App">
       <Header />
       <About />
+      <ScrollButton />
       <Projects />
+      <ScrollButton />
       <Contact />
+      <ScrollButton/>
       <Footer />
     </div>
   );
