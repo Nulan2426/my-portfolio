@@ -4,7 +4,7 @@
     text-align: center;
     /* color: #292020; */
     font-family: 'Cormorant', serif;
-    color: #3F3F3F
+    color: black;
 
 }
 
@@ -13,6 +13,7 @@
     margin-bottom: 30px;
     color: #3F3F3F;
 }
+
 
 .slick-slide img {
     width: 80%;
@@ -39,6 +40,7 @@
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 30px;
+    color: black;
 }
 
 @media (max-width :767px) {
