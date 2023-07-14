@@ -31,13 +31,6 @@ const About = () => {
             <br/>
             I took a risk and retrained as a full stack developer and have since continued learning in this exciting and innovative field, creating functional, responsive and beautiful websites.
             <br/>
-            I've always believed that technology is the future, and taking that leap of faith to retrain has opened my eyes to many possibilities.
-            <br />
-            I strongly believe that diversity starts with representation, and I am committed to making a positive and sustainable change in our communities. 
-            <br />
-                    New Zealand currently has only 4% Maori and 2.8% Pasifika working in technology and I hope to change that for the betterment of the community and our youth. <br />
-                    source: {""}  
-                    <a href='https://nztech.org.nz/wp-content/uploads/sites/8/2021/01/Digital-Skills-Aotearoa-Report-2021_online.pdf' target='_blank' rel="noopener noreferrer">here</a>        
             </p>
             
             <Slider {...settings}>
@@ -71,7 +64,16 @@ const About = () => {
                 
             </Slider>
 
-                <p>I have an Arts degree from the University of Auckland double majoring in Politics and Pacific Studies.
+                <p>
+                    I've always believed that technology is the future, and taking that leap of faith to retrain has opened my eyes to many possibilities.
+                    <br />
+                    I strongly believe that diversity starts with representation, and I am committed to making a positive and sustainable change in our communities.
+                    <br />
+                    New Zealand currently has only 4% Maori and 2.8% Pasifika working in technology and I hope to change that for the betterment of the community and our youth. <br />
+                    source: {""}
+                    <a href='https://nztech.org.nz/wp-content/uploads/sites/8/2021/01/Digital-Skills-Aotearoa-Report-2021_online.pdf' target='_blank' rel="noopener noreferrer">here</a>        
+
+                    I have an Arts degree from the University of Auckland double majoring in Politics and Pacific Studies.
                     <br/>
                 My passion project at the moment is building a website for the wonderful Siosiana 'Uheina Kalaniuvalu.
                     Siosiana is in her 70s, and has a plethora of knowledge about Tongan culture and arts.

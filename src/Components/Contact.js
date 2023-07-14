@@ -69,7 +69,7 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                 />
-                <button type="submit">Submit</button>
+                <button class="button" type="submit">Submit</button>
                 <Modal show={show} onHide={() => setShow(false)}>
                     <Modal.Header closeButton>
                         <Modal.Title>Message sent</Modal.Title>

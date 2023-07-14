@@ -13,12 +13,12 @@ const Header = () => {
 
   return (
     <header className='header'>
-      <h1>LK Portfolio 2023</h1>
+      <h1>LSK PORTFOLIO 2023</h1>
       <nav>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </header>
