@@ -6,28 +6,28 @@ const Projects = () => {
     const [projects, setProjects] = useState([
         {
             id: 1,
-            title: 'SIOSIANA',
-            blurb: 'A passion project of beautiful knowledge. HTML, CSS and vanilla JS. In future iterations of this website I envision that it will move to React as the plethora of knowledge held by Siosiana means that the Website will require storage and a more stable way to store and call the information.',
-            code: 'https://github.com/Nulan2426/siosiana',
-            url: 'https://github.com/Nulan2426/siosiana'
-        },
-        {
-            id: 2,
             title: 'ORIANA SIVA ACADEMY',
             blurb: `A project for an amazing team in Australia whose dance academy did not have a website. This page was built on React.js. the timeline was was short as they had a launch for registrations 8 days away. Incorporated into the site are two google forms, which in a future iteration will be coded into the actual page itself. There is no backend and is a purely front end development. My learnings from this projects, 1. The amount of work I could accomplish in 8 days was awesome, 2. Incorporating and ensuring my project goes into github earlier to save tears on deployment and lastly, never forget a scroll up button!`,
             code: `https://www.orianasivaacademy.com.au`,
             url: 'https://www.orianasivaacademy.com.au'
 
-
+        },
+        {
+            id: 2,
+            title: 'SIOSIANA / LANGAFONUA',
+            blurb: 'A passion project of beautiful knowledge. HTML, CSS and vanilla JS in production. In a current iteration of this website (to be updated) I envision that it will move to React as the plethora of knowledge held by Siosiana means that the Website will require storage and a more stable way to store and call the information. As Siosiana is part of a larger collective, the website coming will include works from herself and her sisters who have played a major role in keeping Tongan culture alive.',
+            code: 'https://github.com/Nulan2426/siosiana',
+            url: 'https://github.com/Nulan2426/siosiana'
           
         },
 
         {
             id: 3,
-            title: 'MY FIRST LANDING PAGE',
-            blurb: 'Landing page about me I made in my first month of coding, something I am proud to showcase as I doubted myself before this so much about career changing. I questioned a lot about what I was doing, the colour scheme I used and as you can probably see by my file upload I did not have a single clue about GitHub.  Made with HTML and CSS.',
-            code: 'https://github.com/Nulan2426/mission2/blob/main/Mission2.html',
-            url: 'https://github.com/Nulan2426/mission2/blob/main/Mission2.html'
+            title: 'SPASIFIK RECRUITMENT (up coming Project)',
+            blurb: `A recent commission to build a website for a recruitment business. It was here that I realised the work in the space that I'm in really is lacking in Pasifika talent. Back story, the owner of the business was told that what he is looking for is a 'full stack developer', he had no idea what that was, so went to LinkedIn and typed in full stack developer, and the first pasifika name he came across was me. He reached out, and here we are!.`,
+            code: `//Link coming soon! Watch this space!`,
+            url: ''
+          
      
         },
            
@@ -40,10 +40,10 @@ const Projects = () => {
         },
         {
             id: 5,
-            title: 'SPASIFIK RECRUITMENT (up coming Project)',
-            blurb: `A recent commission to build a website for a recruitment business. It was here that I realised the work in the space that I'm in really is lacking in Pasifika talent. Back story, the owner of the business was told that what he is looking for is a 'full stack developer', he had no idea what that was, so went to LinkedIn and typed in full stack developer, and the first pasifika name he came across was me. He reached out, and here we are!.`,
-            code: `//Link coming soon! Watch this space!`,
-            url: ''
+            title: 'MY FIRST LANDING PAGE',
+            blurb: 'Landing page about me I made in my first month of coding, something I am proud to showcase as I doubted myself before this so much about career changing. I questioned a lot about what I was doing, the colour scheme I used and as you can probably see by my file upload I did not have a single clue about GitHub.  Made with HTML and CSS.',
+            code: 'https://github.com/Nulan2426/mission2/blob/main/Mission2.html',
+            url: 'https://github.com/Nulan2426/mission2/blob/main/Mission2.html'
         },
         {
             id: 6,

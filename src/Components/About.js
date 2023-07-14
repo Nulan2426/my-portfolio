@@ -9,6 +9,7 @@ import leisa5 from '../Assets/leisa5.jpg';
 import leisa6 from '../Assets/leisa6.jpg';
 import leisa7 from '../Assets/leisa7.jpg';
 import leisa8 from '../Assets/leisa8.jpg';
+import leisa9 from '../Assets/leisa9.jpg';
 
 const About = () => {
     const settings = {
@@ -41,19 +42,22 @@ const About = () => {
             
             <Slider {...settings}>
                 <div>
-                    <img src={leisa5} alt="Leisa 5" /> 
+                    <img src={leisa9} alt="Leisa 5" /> 
                 </div>
                 <div>
-                    <img src={leisa2} alt="Leisa 2" />
+                    <img src={leisa8} alt="Leisa 2" />
                 </div>
+                    <div>
+                        <img src={leisa2} alt="Leisa 3" />
+                    </div>
                 <div>
-                    <img src={leisa3} alt="Leisa 3" />
+                    <img src={leisa1} alt="Leisa 3" />
                 </div>
                 <div>
                     <img src={leisa4} alt="Leisa 4" />
                 </div>
                 <div>
-                    <img src={leisa1} alt="Leisa 1" />
+                    <img src={leisa3} alt="Leisa 1" />
                 </div>
                 <div>
                     <img src={leisa6} alt="Leisa 6" />
@@ -62,7 +66,7 @@ const About = () => {
                     <img src={leisa7} alt="Leisa 7" />
                 </div>
                 <div>
-                    <img src={leisa8} alt="Leisa 8" />
+                    <img src={leisa5} alt="Leisa 8" />
                 </div>
                 
             </Slider>
