@@ -14,6 +14,7 @@
 
 .header h1 {
     margin-left: 20px;
+    letter-spacing:.5rem ;
 }
 
 .header nav {
@@ -28,6 +29,15 @@
     /* color: black; */
     font-size: 20px;
 }
+
+.mobile-menu {
+    display: none !important;
+    flex-direction: flex-end;
+    justify-content: center;
+    
+
+}
+
 .mobile-nav {
     display: none !important;
     flex-direction: column;
@@ -45,6 +55,11 @@
      
 }
 
+.ul.mobile-links {
+    display: flex;
+    
+}
+
 .mobile-links {
     display: flex;
     flex-direction: column;
@@ -60,6 +75,10 @@
 
 .mobile-links a {
     padding: 5px;
+}
+
+.mobile-links li {
+    border-radius:  5px!important;
 }
 
 
@@ -81,6 +100,7 @@
      display: flex !important;
      flex-direction: row;
      margin-left: 0;
+    letter-spacing: 0;
     }
 
     .header nav {
@@ -96,6 +116,10 @@
 
     .desktop-nav {
         display: none !important;
+    }
+
+    .mobile-menu {
+        display: block !important;
     }
 
 .icons {

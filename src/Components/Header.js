@@ -25,30 +25,33 @@ const Header = () => {
 
 
   return (
-    <header className='header'>
+    <header class='header'>
+      
       <h1>LSK PORTFOLIO 2023</h1>
+      <div cl>
       <nav>
         <ul class='desktop-nav'>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#projects">PROJECTS</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
-      </nav>
+        </nav>
+      </div>
+      <div class="mobile-menu">
       {isMobileOpen ? <FaTimes class='icons' onClick={handleOnClick} /> : <FaBars class='icons' onClick={handleOnClick} />}
       {
         isMobileOpen ? <div class='mobile-nav'>
-          {
-      <nav>
-      
-        <ul class='mobile-links'>
-                <li><a onClick={closeOnClick} href="#about"><u>ABOUT</u></a></li>
-                <li><a onClick={closeOnClick} href="#projects"><u>PROJECTS</u></a></li>
-                <li><a onClick={closeOnClick} href="#contact"><u>CONTACT</u></a></li>
-        </ul>
-          </nav>}
-            
+            {
+              <nav class="mobile-links">
+                <ul>
+                  <li><a onClick={closeOnClick} href="#about"><u>ABOUT</u></a></li>
+                  <li><a onClick={closeOnClick} href="#projects"><u>PROJECTS</u></a></li>
+                  <li><a onClick={closeOnClick} href="#contact"><u>CONTACT</u></a></li>
+                </ul>
+              </nav>}
             </div> : " "
-      }
+        }
+      </div>
     </header>
   );
 };

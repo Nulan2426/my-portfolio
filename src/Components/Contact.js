@@ -47,7 +47,7 @@ const Contact = () => {
         <section class="contact" id="contact">
             <h2>CONTACT</h2>
             <form class="form" onSubmit={handleSubmit}>
-                <input
+                <input required
                     type="text"
                     name="user_name"
                     placeholder="Name"
@@ -55,7 +55,7 @@ const Contact = () => {
                     onChange={handleChange}
                 
                 />
-                <input
+                <input required
                     type="email"
                     name="user_email"
                     placeholder="Email"
@@ -63,7 +63,7 @@ const Contact = () => {
                     onChange={handleChange}
                  
                 />
-                <textarea
+                <textarea required
                     name="message"
                     placeholder="Your message"
                     value={formData.message}
